@@ -20,9 +20,6 @@ def choosePin():
     options[led_choice]()
 
 def blinkOne(pin):
-    if pin == 'Exit':
-        GPIO.cleanup();
-        sys.exit(0)
     count = input('How many times would you like it to blink?: ')
     while count > 0:
         GPIO.output(pin, True)
