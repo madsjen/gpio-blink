@@ -68,7 +68,7 @@ def both():
     blinkBoth()
 
 def exit():
-    print 'Invalid option. Exiting'
+    print 'Exiting'
 
 options = {
     1 : red,
